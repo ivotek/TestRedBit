@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Block.o \
 	${OBJECTDIR}/Color.o \
 	${OBJECTDIR}/Gamer.o \
+	${OBJECTDIR}/Table.o \
 	${OBJECTDIR}/main.o
 
 
@@ -79,6 +80,11 @@ ${OBJECTDIR}/Gamer.o: Gamer.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Gamer.o Gamer.cpp
+
+${OBJECTDIR}/Table.o: Table.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Table.o Table.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
