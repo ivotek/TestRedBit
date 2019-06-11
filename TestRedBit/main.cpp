@@ -14,6 +14,7 @@
 #include <cstdlib>
 #include <iostream>
 #include "Color.h"
+#include "Block.h"
 
 using namespace std;
 

@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Block.h</itemPath>
       <itemPath>Color.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -13,6 +14,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Block.cpp</itemPath>
       <itemPath>Color.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -38,6 +40,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Block.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Color.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Color.h" ex="false" tool="3" flavor2="0">
@@ -65,6 +71,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Block.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Color.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Color.h" ex="false" tool="3" flavor2="0">
